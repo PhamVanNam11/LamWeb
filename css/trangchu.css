@@ -1,0 +1,244 @@
+*{
+    font-family: "Arial";
+}
+
+.head-top{
+    background-color: #ccc;
+}
+
+.store_system{
+    margin-top: 8px;
+    margin-left: 20px;
+    color: #e12025;
+}
+
+.store_system i{
+    color: #fdb819;
+}
+
+.store1{
+    position: relative;
+    margin-left: 30px;
+}
+
+.store1 > .nav-link{
+    color: #282828;
+}
+
+
+.store_top nav .nav-link{
+    color: #282828;
+}
+
+.nam{
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.nam:hover{
+    transition: height 2s;
+}
+
+#form_search{
+    margin-top: 20px;
+}
+
+#form_search #basic-addon2{
+    color: #282828;
+    background-color: #fdb819;
+}
+
+.contact_top{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fdb819;
+    border-radius: 35px;
+    flex-wrap: wrap;
+}
+
+.contact_top .phone_number{
+    font-size: 30px;
+    font-weight: bold;
+    color: #e12025;
+}
+
+.contact_top .time{
+    font-size: 16px;
+}
+
+.contact_top .icon-phone{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: #fdb819;
+    text-align: center;
+    line-height: 51px;
+    font-size: 23px;
+    left: -20px;
+    top: 10px;
+}
+
+.cart .icon-cart{
+    font-size: 39px;
+}
+
+.cart .number-product{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #fdb819;
+    border-radius: 50%;
+    line-height: 21px;
+    text-align: center;
+    top: 0;
+    left: 31px;
+}
+
+.menu{
+    background-color: #c44569;
+}
+
+.menu .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 22px;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    margin-left: 3px;
+    color: white;
+}
+
+.menu .navbar-expand-lg .navbar-nav .nav-link:first-child{
+    color: white;
+    font-size: 29px;
+    margin-left: 0;
+    padding: 3px 0.7rem;
+}
+
+.menu .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background-color: #303952;
+}
+
+.carousel-inner .carousel-content{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 200px;
+    color: white;
+}
+
+.carousel-inner .carousel-content button{
+    background-color: #d63031;
+    border: 2px solid #d63031;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 140px;
+    height: 45px;
+}
+
+.slide .img_content > span{
+    color: #c7d0ff;
+    font-size: 18px;
+}
+
+.content h2{
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 600;
+}
+
+.content_product{
+    margin-top: 60px;
+}
+
+.content .content_product .info_product1{
+    display: flex;
+    margin-left: 70px;
+    padding-bottom: 50px;
+}
+
+.content_product .info_product1 .product .description a{
+    display: block;
+    width: 170px;
+    height: 30px;
+    background-color:#d63031;
+    color: white;
+    font-size: 16px; 
+    text-decoration: none;
+}
+
+.content_product .product .description a:hover{
+    background-color: #c0392b;
+}
+
+.content_product .product .description a i{
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.furniture h2{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 600;
+}
+
+.furniture_content {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.furniture_content .furniture1 img{
+    z-index: -1;
+}
+
+.furniture_content .furniture1 .fur-content{
+    position:absolute;
+    width: 310px;
+    height: 140px;
+    border: 1px dashed #ccc;
+    background-color: #ecf0f1;
+    z-index: 1;
+    margin-top: -55px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.furniture_content .furniture1 .fur-content h5{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.furniture_content  .fur-content p{
+    color: #282828;
+}
+
+.product-new h2{
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 600;
+}
+
+.product-new .new{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.product-new h5{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: #1c1c1c;
+}

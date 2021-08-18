@@ -1,0 +1,277 @@
+*{
+    font-family: "Arial";
+}
+
+.head-top{
+    background-color: #ccc;
+}
+
+.store_system{
+    margin-top: 8px;
+    margin-left: 20px;
+    color: #e12025;
+}
+
+.store_system i{
+    color: #fdb819;
+}
+
+.store1{
+    position: relative;
+    margin-left: 30px;
+}
+
+.store1 > .nav-link{
+    color: #282828;
+}
+
+
+.store_top nav .nav-link{
+    color: #282828;
+}
+
+#form_search{
+    margin-top: 20px;
+}
+
+#form_search #basic-addon2{
+    color: #282828;
+    background-color: #fdb819;
+}
+
+.contact_top{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fdb819;
+    border-radius: 35px;
+    flex-wrap: wrap;
+}
+
+.contact_top .phone_number{
+    font-size: 30px;
+    font-weight: bold;
+    color: #e12025;
+}
+
+.contact_top .time{
+    font-size: 16px;
+}
+
+.contact_top .icon-phone{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: #fdb819;
+    text-align: center;
+    line-height: 51px;
+    font-size: 23px;
+    left: -20px;
+    top: 10px;
+}
+
+.cart .icon-cart{
+    font-size: 39px;
+}
+
+.cart .number-product{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #fdb819;
+    border-radius: 50%;
+    line-height: 21px;
+    text-align: center;
+    top: 0;
+    left: 31px;
+}
+
+.menu{
+    background-color: #c44569;
+}
+
+.menu .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 22px;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    margin-left: 3px;
+    color: white;
+}
+
+.menu .navbar-expand-lg .navbar-nav .nav-link:first-child{
+    color: white;
+    font-size: 29px;
+    margin-left: 0;
+    padding: 3px 0.7rem;
+}
+
+.menu .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background-color: #303952;
+}
+
+main{
+    background-color: #faf8f8;
+    padding-bottom: 20px;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.image_small{
+    margin-top: 10px;
+}
+
+.image_small .item-small{
+    width: calc(100% /4);
+}
+
+.image_small .item-small img{
+    padding: 0.5px;
+    width: 100%;
+}
+
+.image_small .item-small:first-child img{
+	padding-left: 0;
+}
+
+.image_small .item-small:last-child img{
+	padding-right: 0;
+}
+
+.product_name{
+    font-size: 26px;
+    color: #282828;
+}
+
+.star i{
+    color: #f89900;
+    font-size: 20px;
+}
+
+#product-info p{
+    font-size: 16px;
+    margin-top: 15px;
+    color: #464646;
+}
+
+#product-info > #bt{
+    background-color: #00b894;
+    border: 1px solid #00b894;
+    height: 40px;
+    width: 130px;
+    margin-left: 100px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.price{
+    background-color: #fafafa;
+}
+
+.price .price-sale{
+    font-size: 23px;
+    color: #fb7d02;
+    font-weight: bold;
+}
+
+.price .price-cost{
+    font-size: 18px;
+    color: #9c9b9b;
+}
+
+.price .percent{
+    color: white;
+    background-color: #ed1b2f;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.price .percent::before{
+    display: block;
+    content: "";
+    border-right: 8px solid #ed1b2f;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    left: -8px;
+    top: 12px;
+}
+
+.content{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.tab-content .tab-pane{
+    margin-top: 20px;
+    width: 90%;
+} 
+
+.tab-content #profile{
+    margin-left: 35px;
+}
+
+.tab-content #profile > h4{
+    font-weight: bold;
+}   
+
+.evaluate{
+    width: 94%;
+    height: 500px;
+    border: 3px solid #e12025;
+}
+
+.evaluate > p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+
+.evaluate .star1{
+    margin-left: 20px;
+}
+
+.evaluate .star1 .star_one{
+    margin-left: 10px;
+}
+
+.evaluate textarea{
+    margin-left: 26px;
+}
+
+.evaluate .row{
+    margin-top: 50px;
+    position: relative;
+}
+
+.evaluate .row1 input{
+    position: absolute;
+    margin-top:-10px ;
+}
+
+.evaluate button{
+    margin-top: 60px;
+    margin-left: 95px;
+    width: 90px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ed1b2f;
+    border: 1px solid #ed1b2f;
+}
+
+footer{
+    background-color: #1c1c1c;
+}

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh mục</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap4/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/danhmuc.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid head-top d-flex justify-content-between align-items-center">
+            <div class="store d-flex">
+                <div class="store_system">
+                    <i class="fas fa-map-marker-alt"></i> Hệ thống cửa hàng
+                </div>
+                <div class="store1 d-flex">    
+                    <a class="nav-link border-right" href="#">Về chúng tôi</a>
+                    <a class="nav-link border-right" href="#">Phương thức thanh toán</a>
+                    <a class="nav-link" href="#">Trợ giúp</a>
+                </div>    			
+            </div> 
+            <div class="store_top">
+                <nav class="nav d-flex">
+                    <a class="nav-link border-right" href="#">Đăng nhập</a>
+                    <a class="nav-link" href="#">Đăng ký</a>			
+                </nav>
+            </div>
+        </div>
+    </header>    
+    <div class="nam ">
+        <div class="head_bottom container-fluid py-3 bg-white">
+            <div class="row">
+                <div class="col-2">
+                    <img class="logo" src="../images/logo2.png">
+                </div>
+                <div class="col-4 col-lg-4">
+                    <form id="form_search" method="GET" action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Tìm kiếm ..."
+                            aria-label="" aria-describedat="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">Tìm kiếm</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-3 d-none d-lg-block">
+                    <div class="contact_top position-relative">
+                        <div class="phone_number">0984253398</div>
+                        <p class="time w-100 text-center mb-0"> (7h30 - 12h45 & 13h30 - 21h00)</p>
+                        <span class="icon-phone"><i class="fas fa-phone-alt"></i></span>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="cart position-relative">
+                                <span class="icon-cart">
+                                    <i class="fal fa-shopping-cart"></i>
+                                </span>
+                                <span class="number-product">0</span>
+                                <span class="d-none d-lg-inline-block">Giỏ hàng</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid menu">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item active">
+                            <a class="nav-item nav-link active" href="#"><i class="fas fa-home"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Trang chủ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Cửa hàng
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Bàn ghế</a>
+                              <a class="dropdown-item" href="#">Nội thất gia đình</a>
+                              <a class="dropdown-item" href="#">Tủ</a>
+                              <a class="dropdown-item" href="#">Đồ gia dụng</a>
+                              <a class="dropdown-item" href="#">Vách ngăn</a>
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Khuyến mãi</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Tin tức</a>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    <main>
+        <nav class="d-flex" aria-label="breadcrumb">
+            <ol class=" breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Cửa hàng</li>
+            </ol>
+            <ol class="bread breadcrumb">
+                <li class="breadcrumb-item">Hiển thị 1-20 trong 75 kết quả</li>
+                <select>
+                    <option>Thứ tự mặc định</option>
+                    <option>Thứ tự theo mức độ phổ biến</option>
+                    <option>Thứ tự theo sản phẩm mới</option>
+                </select>
+            </ol>
+        </nav>
+    </main>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-3 d-none d-lg-block">
+                <ul class="list-group">
+                    <li class="list-group-item"><b>Danh mục sản phẩm</b></li>
+                    <li class="list-group-item">
+                        <div class="service-item d-flex align-items-center mb-3">
+                            <img src="../images/icon-table.png" width="12%">
+                            <div class="text ml-3">
+                                <a href="#">Bàn</a>
+                            </div>
+                        </div>
+                        <div class="service-item d-flex align-items-center mb-3">
+                            <img src="../images/icon-ghe.png" width="12%">
+                            <div class="text ml-3">
+                                <a href="#">Ghế</a>
+                            </div>
+                        </div>
+                        <div class="service-item d-flex align-items-center mb-3">
+                            <img src="../images/icon-table.png" width="12%">
+                            <div class="text ml-3">
+                                <a href="#">Nội thất gia đình</a>
+                            </div>
+                        </div>
+                        <div class="service-item d-flex align-items-center mb-3">
+                            <img src="../images/icon-table.png" width="12%">
+                            <div class="text ml-3">
+                                <a href="#">Tủ</a>
+                            </div>
+                        </div>
+                        <div class="service-item d-flex align-items-center mb-3">
+                            <img src="../images/icon-table.png" width="12%">
+                            <div class="text ml-3">
+                                <a href="#">Đồ gia dụng</a>
+                            </div>
+                        </div>
+                        <div class="service-item d-flex align-items-center mb-3">
+                            <img src="../images/icon-table.png" width="12%">
+                            <div class="text ml-3">
+                                <a href="#">Vách ngăn</a>
+                            </div>
+                        </div>
+                        <div class="service-item d-flex align-items-center mb-3">
+                            <img src="../images/icon-table.png" width="12%">
+                            <div class="text ml-3">
+                                <a href="#">Bàn</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-9 bg-white py-3 rounded">
+                <div class="row">
+                    <div class="col-12">
+                    <div class="images_one d-flex">
+                        <div class="image_one">    
+                            <img src="../images/ban_an1.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                        <div class="image_one">    
+                            <img src="../images/ban_an2.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                        <div class="image_one">    
+                            <img src="../images/ban_an.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                        <div class="image_one">    
+                            <img src="../images/ban_an3.webp" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                    </div>
+                    <div class="images_one d-flex">
+                        <div class="image_one">    
+                            <img src="../images/ban_van_phong5.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                        <div class="image_one">    
+                            <img src="../images/ban_an4.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                        <div class="image_one">    
+                            <img src="../images/ban_an1.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                        <div class="image_one">    
+                            <img src="../images/ban_an1.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                    </div>
+                    <div class="images_one d-flex">
+                        <div class="image_one">    
+                            <img src="../images/ban_an1.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                        <div class="image_one">    
+                            <img src="../images/ban_an1.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                        <div class="image_one">    
+                            <img src="../images/ban_an1.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                        <div class="image_one">    
+                            <img src="../images/ban_an1.png" width="100%">
+                            <div class="dec">
+                                <h6>Giường ngủ cao cấp</h6>
+                                <p><b>8,999,000đ</b></p>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </div>    
+                        </div>    
+                    </div>    
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.77281504946!2d105.39337991427743!3d19.80722753372848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136dd2b54730ea7%3A0x821832eaa6447b6!2sCoffe%20Long%20Ha%CC%89i!5e0!3m2!1svi!2sus!4v1629256282523!5m2!1svi!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div class="footer">
+        <footer class="text-center text-lg-start text-muted">
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <div class="me-5 d-none d-lg-block text-white">
+            <span>Tìm chúng tôi tại:</span>
+          </div>
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </section>
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-white">
+                <h6 class="text-uppercase fw-bold mb-4 font-weight-bold ">
+                  <i class="fas fa-gem me-3"></i>Công ty TNHH thương mại quốc tế LANN
+                </h6>
+                <p>
+                    <b>Địa chỉ:</b> 91 Nguyễn Quang Minh, Thị trấn thiệu Hóa, Thanh Hóa<br> 
+                    <b>Đại diện pháp luật:</b> Nammm
+                </p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
+                <h6 class="text-uppercase fw-bold mb-4 font-weight-bold">
+                  VỀ LANN
+                </h6>
+                <p>
+                  <a href="#!" class="text-white">Trang chủ</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Giới thiệu</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-danger">Cửa hàng</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Khuyến mãi</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-white">Tin tức</a>
+                </p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
+                <h6 class="text-uppercase fw-bold mb-4 font-weight-bold">
+                  Danh mục
+                </h6>
+                <p>
+                  <a href="#!" class="text-white">Bàn ghế</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Nội thất gia đình</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Tủ</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Đồ gia dụng</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-white">Vách ngăn</a>
+                </p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-white">
+                <h6 class="text-uppercase fw-bold mb-4 font-weight-bold">
+                  Contact
+                </h6>
+                <p><i class="fas fa-home me-3"></i> Thanh Hóa, NL 11, VN</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  phamnam2905@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+        </div>
+</body>
+<script type="text/javascript" src="../lib/jquery.min.js"></script>
+<script type="text/javascript" src="../lib/bootstrap4/popper.min.js"></script>
+<script type="text/javascript" src="../lib/bootstrap4/bootstrap.min.js"></script>
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+</html>
